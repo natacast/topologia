@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Topologia en Serie - UAB</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Grau de Matemàtiques UAB, Topologia, curs 2021/22</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">Informacions pràctiques</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Topologia en sèrie</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#diari">Diari de bord</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">Contacte</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">TOPOLOGIA</h1>
+                        <h1 class="mx-auto my-0 text-uppercase">EN SÈRIE</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Un viatge fantàstic!</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-left" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-left">
+                    <div class="col -lg-20">
+                        <h2 class="text-white mb-4">Informacions pràctiques</h2>
+                        <p class="text-white mb-4">
+                            Professorat: Natàlia Castellana (UAB), C1 130, Edifici C.
+                            <!--Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
+                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
+                            The theme is open source, and you can use it for any purpose, personal or commercial.-->
+                        </p>
+                        <p class="text-white mb-4">
+                            Xat de dubtes i preguntes a Zulip en aquesta <a href="https://curs-topologia-uab.zulipchat.com">adreça</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-left">
+                    <div class="col -lg-20">
+                        <p class="text-white mb-4"> Bibliografia bàsica
+                            <br> 
+                            <ul>
+                                <li class="text-white-50"> Jaume Aguadé, <a href="assets/pdfs/ACTE-Aguade-ver1.2-2.pdf">Apunts d'un curs de topologia elemental</a>.</li>
+                                <li class="text-white-50"> Rysarzd Engelking, General Topology, Sigma Series in Pure Mathematics 6, Heldermann Verlag, 1989.</li>
+                                <li class="text-white-50"> Czes Kosniowski, A first course in algebraic topology. Cambridge University Press 1980.</li>
+                                <li class="text-white-50"> James Munkres, General Topology, Prentice-Hall, 2000.</li>
+                                <li class="text-white-50"> Jesper Moller, <a href="http://web.math.ku.dk/~moller/e03/3gt/notes/gtnotes.pdf">General Topology.</a></li>
+                            </ul>
+                        </p>
+                        <p class="text-white mb-4"> Dates examens
+                            <br> 
+                            <ul>
+                                <li class="text-white-50"> Examen parcial: 3 de novembre 2021. De 9h a 12h.</li>
+                                <li class="text-white-50"> Examen final: 19 de gener 2022. De 12:30 a 15:30h.</li>
+                                <li class="text-white-50"> Examen de recuperació: 2 de febrer 2022. De 9h a 12h.</li>
+                            </ul>
+                        </p>
+                        <p class="text-white mb-4"> Seminaris
+                            <br> 
+                            <ul>
+                                <li class="text-white-50"> 19 d'octubre. <a href="assets/pdfs/Seminari1_Topologia21_entrega.pdf">Document</a>. Entrega en grups. Data límit: 15 de novembre a les 10h (per correu electrònic).</li>
+                                <li class="text-white-50"> 16 de novembre. </li>
+                                <li class="text-white-50"> 21 de desembre. </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>  
+            </div>     
+            <img class="img-fluid" src="assets/img/espai.jpg" alt="..." />
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <!-- Temporada 1 Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-6 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/temporada1.jpg" alt="..." /></div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="featured-text text-left text-lg-left">
+                            <h4>Temporada 1: I tu, ja saps què és una aplicació contínua?</h4>
+                            <p class="text-black-50 mb-0">Comencem el viatge fent un pas enrere, a un terreny conegut i familiar...al càlcul de primer!</p>
+                            <br> 
+                            <ul>
+                                <li class="text-black-50">Episodi 1: <a href="assets/pdfs/T1-1-QueEsAplicacioContinua.pdf">Ja saps què és una aplicació contínua?</a> </li>
+                                <li class="text-black-50">Episodi 2: <a href="assets/pdfs/T1-2-LaVidaSecretaDelsOberts.pdf">La vida secreta dels oberts</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Temporada 2 Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-left">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="featured-text text-left text-lg-left">
+                            <h4>Temporada 2: Hi ha continuitat més enllà dels espais mètrics...els espais topològics</h4>
+                            <p class="text-black-50 mb-0"> El terme topologia va apareixer publicat el 1847 en un treball de Listing, "Vorstudien zur Topologie" tot i que ja s'usava en correspondència privada. Es referien a una 
+                                geometria qualitativa davant de la geometria ordinària en que les relacions quantitatives eren tractades. Va ser el 1914 quan Hausdorff va introduir el concepte d'espai topològics amb la propietat de Hausdorff 
+                                mitjançant axiomes. La lleufera generalització (sense propietat de Hausdorff) de Kuratowski (1922) és la que utilitzem.
+                            </p>
+                            <br> 
+                            <ul>
+                                <li class="text-black-50">Episodi 1: <a href="assets/pdfs/T2-1-Hihavidamesenlladelsespaismetrics.pdf">Hi ha vida més enllà dels espais mètrics  </a> </li>
+                                <li class="text-black-50">Episodi 2: <a href="assets/pdfs/T2-2-Elmondelstancas.pdf">El món dels tancats...un univers paral·lel  </a> </li>
+                                <li class="text-black-50">Episodi 3: <a href="assets/pdfs/T2-3-DIY_basesperconstruirtopologies.pdf">Topologies a mida...DIY amb bases  </a> </li>
+                                <li class="text-black-50">Episodi 3.5: <a href="assets/pdfs/T2-3'5-Subbases.pdf">I encara més eines DIY: subbases  </a> </li>
+                                <li class="text-black-50">Episodi 4: <a href="assets/pdfs/T2-4 Elduetfantastic-interior-clausura.pdf">Duet fantàstic i inseparable: interior i clausura  </a> </li>
+                                <li class="text-black-50">Episodi 5: <a href="assets/pdfs/T2-5 Elretorndelesaplicacionscontinues.pdf">El retorn de les aplicacions  </a> </li>
+                                <li class="text-black-50">Bonus: <a href="assets/pdfs/Seminari1_Topologia21.pdf">I si volem modelar el concepte de límit, la idea de convergència de successions...els filtres.  </a> </li>
+                                <li class="text-black-50">Bonus: <a href="assets/pdfs/Seminari1_2020.pdf">Com seria la topologia si les intereseccions arbrtitàries d'oberts fossin obertes també...els espais d'Alexandroff.  </a> </li>
+                            
+                            </ul>
+                            <p class="text-black-50 mb-0"> Estàs a punt per uns quants <a href="assets/ReptesTemporada 2.pdf">reptes</a>?
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                </div>
+                <!-- Temporada 3 Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-left">
+                    <div class="col-xl-6 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/temporada3.jpg" alt="..." /></div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="featured-text text-left text-lg-left">
+                            <h4>Temporada 3: Bricotopologia o com construir nous espais topològics amb els que tens per casa</h4>
+                            <p class="text-black-50 mb-0"> 
+                            </p>
+                            <br> 
+                            <ul>
+                                <li class="text-black-50">Episodi 1: <a href="assets/pdfs/T3-1Retallem subespais.pdf">Hi ha vida més enllà dels espais mètrics  </a> </li>
+                                <li class="text-black-50">Episodi 2: <a href="assets/pdfs/T3-2 Convidat especial_ Cantor.pdf">El món dels tancats...un univers paral·lel  </a> </li>
+                                <li class="text-black-50">Episodi 3: <a href="assets/pdfs/T3-3 Minecraft topologic_ productes.pdf">Topologies a mida...DIY amb bases  </a> </li>
+                                <li class="text-black-50">Episodi 4: <a href="assets/pdfs/T3-4 Productes infinits_ retorn de Cantor.pdf">I encara més eines DIY: subbases  </a> </li>
+                                <li class="text-black-50">Episodi 5: <a href="assets/pdfs/T3-5 Patchwork_ enganxem espais.pdf">Duet fantàstic i inseparable: interior i clausura  </a> </li>
+                                <li class="text-black-50">Episodi 6: <a href="assets/pdfs/T3-6 123Accio en un espai.pdf">El retorn de les aplicacions  </a> </li>
+                            </ul>
+                            <p class="text-black-50 mb-0"> Estàs a punt per uns quants <a href="assets/ReptesTemporada-3.pdf">reptes</a>?
+                        </div>
+                    </div>
+                </div>
+                <!-- Temporada 4 Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-left">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="featured-text text-left text-lg-left">
+                            <h4>Temporada 4: Un nou horitzó pels teoremes de Weierstrass i Bolzano-Weierstrass: la compacitat.</h4>
+                            <p class="text-black-50 mb-0">
+                                "En els seus inicis, la topologia general es proposava estendre alguns dels resultats de la topologia dels reals a situacions més generals, com ara els espais
+                                de funcions, i entre aquests destacava el teorema de Weierstrass, que assegurava l'existència d'extrems per a funcions contínues definides en un interval [a,b].
+                             Aquest va ser el punt de partida de la definició d'espai compacte, però quina és la propietat d'un interval [a,b] que dona lloc al teorema de Wierstrass? Quin és el context 
+                             en el qual la podem expressar?" 
+                            </p>
+                            <p class="text-black-50 mb-0">
+                             De l'article "La compacitat, una noció seminal en l'evolució de la topologia general (1895-1930)", Mònica Blanco, Júlia Moreno, Pere Pascual, 
+                             Butlletí de la Societat Catalana de Matemàtiques 35, n1, 2020.
+                            </p>
+                            <br> 
+                            <ul>
+                                <li class="text-black-50">Episodi 1: <a href="assets/pdfs/T4-1 CompactesmetricFree.pdf">Espais compactes metric-free  </a> </li>
+                                <li class="text-black-50">Episodi 2: <a href="assets/pdfs/T2-2-T4-2 Mantracompacteshausdorff.pdf">El mantra dels compactes Hausdorff...ooommmm  </a> </li>
+                                <li class="text-black-50">Episodi 3: <a href="assets/pdfs/T4-3 Tychonoffiproductedecompactes.pdf">Tychonoff dixit: producte de compactes és compacte  </a> </li>
+                                <li class="text-black-50">Episodi 4: <a href="assets/pdfs/T4-4 ModelAlendroffdecompactarespais.pdf">Compactem amb la recepta Alexandroff  </a> </li>
+                                <li class="text-black-50">Episodi 5: <a href="assets/pdfs/T4-5 VersionsLocalsVersionsdeButxaca.pdf">Versions de butxaca  </a> </li>
+                                <li class="text-black-50">Episodi 6: <a href="assets/pdfs/T4-6 Qnoesloccompacte.pdf">Els nombres racionals no són localment compactes  </a> </li>
+                                <li class="text-black-50">Episodi 7: <a href="assets/pdfs/T4-7 MetodeHeineBorel_amb2preguntes.pdf">El mètode Heine-Borel de les dues preguntes  </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/Temporada4.jpg" alt="..." /></div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white"> Una base de dades d'espais topològics</h4>
+                                    <p class="mb-0 text-white-50"> Espais topològics variats, un bon menú, amb les seves propietats <a href="https://topology.jdabbs.com/">aquí.</a></p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">No ho veus clar?</h4>
+                                    <p class="mb-0 text-white-50">Posa't a <a href="assets/pdfs/Examens passats.zip">prova</a>prova primer sense mirar les solucions...</p>
+                                    <p class="mb-0 text-white-50">Pregunta en aquest <a href="https://curs-topologia-uab.zulipchat.com/">xat</a> i trobarem la resposta entre tots.</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Diari de bord-->
+        <section class="projects-section bg-light" id="diari">
+            <div class="container px-4 px-lg-5">
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/diari1.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-blue text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-black"> Del 13 al 30 de setembre</h4>
+                                    <p class="mb-0 text-black-50"> Conceptes: Continuitat en espais mètrics. Espai topològic. Exemples. Tancats.</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/diari2.jpg" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Del 1 al 15 d'octubre</h4>
+                                    <p class="mb-0 text-white-50">Conceptes: Bases, subbases, interior i clausura, frontera, aplicacions contínues.</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/diari3.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-blue text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-black"> Del 20 al 29 d'octubre</h4>
+                                    <p class="mb-0 text-black-50"> Conceptes: Homeomorfismes. Aplicacions obertes i tancades. Topologia producte.</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/diari4.jpg" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Del 15 al 26 de novembre</h4>
+                                    <p class="mb-0 text-white-50">Copnceptes: productes infinits, subespais topologics, exemples, el conjunt de Cantor.</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Signup-->
+        <section class="signup-section" id="signup">
+            <!--<div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <!--<form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">-->
+                            <!-- Email address input-->
+                            <!--<div class="row input-group-newsletter">
+                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
+                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
+                            </div>
+                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
+                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>-->
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <!--<div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3 mt-2 text-white">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>-->
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <!--<div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+        <!-- Contact-->
+        <section class="contact-section bg-black">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Adreça</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">C1/130, Edifici C, Universitat Autònoma de Barcelona</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="#!">natacast.edu@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Tutories</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">A convenir</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                </div>-->
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2021</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
